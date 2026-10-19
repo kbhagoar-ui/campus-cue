@@ -1,0 +1,50 @@
+CAMPUSCUE — PROJECT NOTES
+
+Problem:
+College students often track assignments, exams, deadlines, events, and personal tasks across different apps, chats, notebooks, and notices. Scattered information makes it harder to prioritise work and remember deadlines.
+
+Target users:
+• College students managing coursework and deadlines
+• Student groups coordinating projects
+• Students balancing academic work with college activities
+
+Proposed solution:
+CampusCue is a responsive student planner website that lets users add tasks, set categories and priorities, record due dates and estimated work time, add notes, search/filter tasks, and mark work complete.
+
+Features in this prototype:
+• Add and delete tasks
+• Category, priority, due-date, duration, and notes fields
+• Search and filter tasks
+• Mark tasks complete
+• Total, pending, and completed task counters
+• Demo tasks for presentation
+• Responsive layout
+• Browser localStorage persistence
+• Study tips
+
+Technical limitation:
+This is a front-end educational prototype built with HTML, CSS, and JavaScript. Task data is saved in the current browser only. There are no accounts, shared cloud database, cross-device sync, reminders, or AI integration.
+
+Future improvements:
+• Student accounts and cloud database
+• Calendar view and automated reminders
+• Shared group-project task boards
+• Integration with college learning management systems
+• Optional AI assistant to break large assignments into steps
+• Task-completion analytics
+
+Three development improvements:
+1. Added an interactive dashboard instead of a static concept page.
+2. Added priority, categories, due dates, search, and completion tracking.
+3. Added responsive design, demo data, and study tips to make the project easier to demonstrate.
+
+Success metric:
+On-time task completion rate = (tasks completed on or before their due date ÷ total tasks with due dates) × 100. In a real pilot, compare this rate over a defined period before and after students use CampusCue. The prototype does not independently validate academic outcomes, so results should be collected from users and interpreted carefully.
+
+Demo steps:
+1. Open index.html in a modern browser.
+2. Click “Try demo tasks”.
+3. Add a task and assign category, priority, due date, and time.
+4. Search/filter tasks.
+5. Mark a task complete or delete it.
+6. Refresh the page to demonstrate browser-local persistence.
